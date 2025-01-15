@@ -5,6 +5,7 @@ date: "`r Sys.Date()`"
 output: html_document
 editor_options: 
   chunk_output_type: console
+bibliography: references.json
 ---
 
 ```{r setup, include=FALSE}
@@ -37,7 +38,7 @@ sample_and_taxon <- read_csv("data/sample_and_taxon.csv")
 
 Finally, we'll plot the relationship between temperature and overall microbial cell abundance.
 
-```{r cells_vs_temp}
+```{r cells_vs_temp, fig.width=2, fig.height = 1}
 sample_and_taxon %>%
   ggplot() +
   aes(x = temperature,
@@ -84,20 +85,16 @@ sample_and_taxon %>%
   kable()
 ```
 
-1. *Markdown*
-2. **facet_wrap**
-3. ***SQL***
+1.  *Markdown*
+2.  **facet_wrap**
+3.  ***SQL***
 
 [Markdown Tutorial](https://marschmilab.github.io/Cornell_Carpentries_Jan2025/05-r-markdown/index.html)
 
-Challenge:
-Make a bullet point list. 
-First line is your favorite coding language so far - in italics
-Second line is your favorite function we've learned so far - bold
-Third line is the next programming thing you want to learn - italics and bold
+Challenge: Make a bullet point list. First line is your favorite coding language so far - in italics Second line is your favorite function we've learned so far - bold Third line is the next programming thing you want to learn - italics and bold
 
-Switch to a numbered list
-Find a markdown formatting tutorial and insert it as a hyperlink
+Switch to a numbered list Find a markdown formatting tutorial and insert it as a hyperlink
 
+![](images/clipboard-2126753284.png)
 
-
+@schmidt2010

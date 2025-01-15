@@ -1,0 +1,68 @@
+[
+    {
+        "DOI": "10.1098/rspb.2010.1254",
+        "URL": "https://royalsocietypublishing.org/doi/full/10.1098/rspb.2010.1254",
+        "accessed": {
+            "date-parts": []
+        },
+        "author": [
+            {
+                "family": "Schmidt",
+                "given": "S. K."
+            },
+            {
+                "family": "Lynch",
+                "given": "R. C."
+            },
+            {
+                "family": "King",
+                "given": "A. J."
+            },
+            {
+                "family": "Karki",
+                "given": "D."
+            },
+            {
+                "family": "Robeson",
+                "given": "M. S."
+            },
+            {
+                "family": "Nagy",
+                "given": "L."
+            },
+            {
+                "family": "Williams",
+                "given": "M. W."
+            },
+            {
+                "family": "Mitter",
+                "given": "M. S."
+            },
+            {
+                "family": "Freeman",
+                "given": "K. R."
+            }
+        ],
+        "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+        "id": "schmidt2010",
+        "issue": "1706",
+        "issued": {
+            "date-parts": [
+                [
+                    2010,
+                    9,
+                    8
+                ]
+            ]
+        },
+        "key": "28IF5IVX",
+        "libraryid": "3",
+        "page": "702-708",
+        "providerkey": "Zotero",
+        "publisher": "Royal",
+        "source": "royalsocietypublishing.org (Atypon)",
+        "title": "Phylogeography of microbial phototrophs in the dry valleys of the high Himalayas and Antarctica",
+        "type": "article-journal",
+        "volume": "278"
+    }
+]
